@@ -34,7 +34,7 @@ public class MyCalender {
             case NOVEMBER:
             case DECEMBER:
                 if (year.isLeap() && month == Month.FEBRUARY) {
-                    todayDate++;
+                    todayDate--;
                 }
                 System.out.println("Today's Date is: " + todayDate);
                 System.out.println(month + " have " + month.getDaysInMonth() + " days");
